@@ -12,13 +12,13 @@ public class CalculoCirculoVar {
 		double pi;
 		double radioc;
 		/* Con esta variable capturamos la entrada del usuario */
-		String radio;
+		Double radio;
 		System.out.println("Escribe el valor para Radio");
 		radio = in.nextDouble(); // capturamos el número
 		System.out.println("Pi siempre vale 3.1416");
 		pi = 3.1416;
 		/* Aqui convertimos el string radio a double con Double.parseDouble(s) */
-		radioc = Math.pow(Double.parseDouble(radio), 2);
+		radioc = Math.pow(radio, 2);
 		/* Elevamos al cuadrado el radio */
 		System.out.println("El área del circulo es " + pi * radioc + " centimetros cuadrados");
 		in.close();
