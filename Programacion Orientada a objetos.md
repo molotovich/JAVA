@@ -26,6 +26,8 @@
 		- Programa cálculo de área de circulo usando Scanner
 		- TAREA: Investigar como validar que el usuario solo introduzca el dato que requerimos
 
+### **Sesión 3**
+
 #### *Conceptos Básicos de POO*
 
 	- Clase (Definición de los objetos)
@@ -33,4 +35,9 @@
 	- Métodos (Funciones que existen dentro del contexto de una clase)
 	- Objetos (manifestación de la clase, tendra los atributos y metodos asociados a la misma)
 
-### **Sesión 3**
+#### *Creando nuestra primer clase en java*
+
+	- Creación de la clase
+	- Asignación de atributos
+	- Asignación de metodos
+
