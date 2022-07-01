@@ -8,6 +8,7 @@
 - Instalación y configuración del extension pack for java
 - Instalación y verificación del JDK Java
 - Creación de primer proyecto
+- TAREA: Investigar Hola Mundo en otros lenguajes.
 
 ## **Sesión 2:**
 
