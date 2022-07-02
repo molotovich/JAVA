@@ -10,12 +10,12 @@ public class CalCirVar {
 		double pi;
 		double radioc;
 		String radio;
-		Boolean bandera; //valor que usaremos para indicr a nuestro bucle que es hora de salir
+		Boolean bandera=true; //valor que usaremos para indicr a nuestro bucle que es hora de salir
 		/*
 		 * Este programa calcula el área de un circulo,
 		 * pregunta el valor del radio y valida que sean numeros
 		 */
-		do { //utilizamos el bucle DO {} WHILE (condición)
+		while (Boolean.TRUE.equals(bandera)) { //utilizamos el bucle DO {} WHILE (condición)
 			System.out.println("Escribe el valor para Radio");
 			radio = in.nextLine(); // Capturamos entrada de usuario
 			if (radio.matches("\\d{1,5}")) { //usamos una expresión regular para validar el dato de entrada
@@ -27,7 +27,7 @@ public class CalCirVar {
 				System.out.println("Valor no valido, vuelva a intentar");
 				bandera = true;
 			}
-		} while (Boolean.TRUE.equals(bandera));
+		}
 		in.close();
 	}
 
