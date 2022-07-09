@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
+        Scanner in= new Scanner(System.in);
         Persona juan=new Persona();
         juan.direccion="Mexico";
         juan.edad=17;
@@ -8,7 +11,10 @@ public class App {
         juan.email="juan.gomez@correo.com";
         
         Persona pedro=new Persona();
-        pedro.nombre="Pedro Picapiedra";
+        System.out.println("Coloque el nombre para la siguiente persona");
+        pedro.nombre=in.nextLine();
+        System.out.println("Coloque la dirección para la siguiente persona");
+        pedro.direccion=in.nextLine();
 
         System.out.println(juan.direccion);
         System.out.println(juan.edad);
