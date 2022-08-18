@@ -5,9 +5,9 @@ public class App {
         Double radio;
         Double area;
         pi = 3.1416;
-        radio = 3;
+        radio = 3.0;
+        System.out.println("pi vale " + pi + "El area es igual a " + pi*Math.pow(radio, 2)); // esto escribe el valor de la variable pi
 
-        System.out.println("pi vale " + pi); // esto escribe el valor de la variable pi
 
     }
 }
