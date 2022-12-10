@@ -7,9 +7,17 @@ public class CalCirVar {
 		// creacion del objeto scanner para la lectura
 		Scanner in = new Scanner(System.in);
 		// Declaración de Variables
+		int a;
+		Integer exp;
 		double pi;
 		double radioc;
 		String radio;
+
+		radio=in.nextLine();
+		exp = in.nextInt();
+			for(a=exp;a<=exp;a++){
+				pi=pi*Integer.parseInt(radio)
+			}
 		Boolean bandera=true; //valor que usaremos para indicr a nuestro bucle que es hora de salir
 		/*
 		 * Este programa calcula el área de un circulo,
@@ -27,7 +35,9 @@ public class CalCirVar {
 				System.out.println("Valor no valido, vuelva a intentar");
 				bandera = true;
 			}
+			
 		}
+		
 		in.close();
 	}
 
