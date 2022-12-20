@@ -7,7 +7,10 @@ public class Validacion {
         Scanner sc = new Scanner(System.in);
 
         // Crear y Asignar variables
-        Double pi = 3.1416, area;
+        Integer pi[5,5];
+        Integer apuntador=0;
+        pi[apuntador]=50;
+        zeta=pi[5]+pi[3];
 
         // Solicitamos los caracteres
         System.out.println("Por favor ingrese el radio");
